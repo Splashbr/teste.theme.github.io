@@ -1,3 +1,8 @@
+/* Olá, seja bem ao Splash.themes, nesse arquivo SOURCE.CSS fica tudo sobre o discord basicamente é a fonte de alimentação do tema. */
+
+/* vai ter outro arquivo com nome do tema, nele vai conter coisas basicas para alterar o TEMA. */
+
+/* Você não podera alterar nada aqui já que a fonte de alimentação do TEMA. */
 :root {
   --app-background: url(https://i.imgur.com/GIfkekn.jpg);
   --app-blur: 6px;
