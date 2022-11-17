@@ -8,3 +8,14 @@
  */
 
 @import url(https://splashbr.github.io/Splash-theme/source.css);
+
+:root {
+  --app-background: url(https://i.imgur.com/GIfkekn.jpg);
+  --app-blur: 6px;
+  --app-margin: px;
+  --app-radius: 10px;
+
+  /* cores */
+  --color-discord: #aaa;
+  --color-mef: #aaa;
+}
