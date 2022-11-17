@@ -1,37 +1,57 @@
 :root {
   --app-background: url(https://i.imgur.com/GIfkekn.jpg);
+  --icone-discord: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fcliply.co%2Fclip%2Fdiscord-logo%2F&psig=AOvVaw3iwlBaUsIaayg968YeuSbF&ust=1668735076804000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOCh5tGItPsCFQAAAAAdAAAAABAX);
   --app-blur: 6px;
-  --app-margin: px;
+  --app-margin: 5px;
   --app-radius: 10px;
   --sidebar-color: rgba(0, 0, 0, 0.4);
   --main-content-color: rgba(0, 0, 0, 0.2);
-  /* cor do (Discord, Amigos, Nitro, público, Mensagens diretas e o +,Transmitir, Silenciar, Disativar Áudio, Configurações de usuário, Reforce os parças! Dê vantagens superbacanas de bate-papo com o nitro, Gif, Figurinha. )*/
   /* código padrao #aaa */
   --interactive-normal: #aaa;
-  /* cor que vai ficar ao passar o mouse em cima */
-  --interactive-hover: #ddd !important;
-   /* cor que vai ficar quando selecionar o item */
+  /* cor que vai ficar ao passar o mouse em cima, o padão #ddd */
+  --interactive-hover: #ddd;
+   /* cor que vai ficar quando selecionar o item, o padão #fff */
   --interactive-active: #fff;
   /*  */
   --interactive-muted: #777;
   /*  */
   --channels-default: #aaa;
-  /* cor do seu perfil com call/seu nome e textos */
+  /* cor do seu perfil com call/seu nome e textos, o padão #dfdfdf*/
   --header-secondary: #dfdfdf;
+
+  /* cores */
+  --color-author: #A240BF;
+  --color-discord: #aaa;
+  --color-mef: #aaa;
 }
 
 div[class*="typeWindows-"]::after {
-  content: "🔮Splash🔮 v0.0.1";
+  content: "🔮Splash-themes🔮 v0.0.1";
   font-weight: bold;
   font-size: 14px;
-  line-height: 30px;
+  line-height: 20px;
   top: 0;
   left: 0;
   position: absolute;
-  padding: 0 15px;
+  padding: 0 90px;
   z-index: -1;
   width: 100%;
-  height: 20px;
+  height: 0px;
   background: transparent;
-  color: var(--Main-Color);
+  color: var(--color-author);
+}
+/* marca do discord */
+.wordmarkWindows-2dq6rw {
+  color: var(--color-discord) !important;
+}
+/* minimizar/espandir/fexar */
+.winButton-3UMjdg {
+  color: var(--color-mef) !important;
+}
+/* icon do discord */
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
+background-color: var(--icone-discord) !important;
+}
+.typeWindows-2-g3UY {
+  background: transparent;
 }
