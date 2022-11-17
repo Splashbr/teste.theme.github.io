@@ -10,13 +10,13 @@
   /* código padrao #aaa */
   --interactive-normal: #aaa;
   /* cor que vai ficar ao passar o mouse em cima */
-  --interactive-hover: #ddd;
+  --interactive-hover: rgb(253, 0, 0);
    /* cor que vai ficar quando selecionar o item */
   --interactive-active: #fff;
   /*  */
   --interactive-muted: #777;
   /*  */
   --channels-default: #aaa;
-  /* cor das # do seu perfil com call/seu nome e textos */
+  /* cor do seu perfil com call/seu nome e textos */
   --header-secondary: #dfdfdf;
 }
