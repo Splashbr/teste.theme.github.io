@@ -9,7 +9,7 @@
   /* código padrao #aaa */
   --interactive-normal: #aaa;
   /* cor que vai ficar ao passar o mouse em cima, o padão #ddd */
-  --interactive-hover: #000;
+  --interactive-hover: #ddd;
    /* cor que vai ficar quando selecionar o item, o padão #fff */
   --interactive-active: #fff;
   /*  */
