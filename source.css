@@ -1,6 +1,6 @@
 :root {
   --app-background: url(https://i.imgur.com/GIfkekn.jpg);
-  --icone-discord: url(https://github.com/Splashbr/Splash-theme/blob/main/background/DISCORD_LOGO_BLACK_400.gif);
+   --loop-gif: url(https://github.com/Splashbr/Splash-theme/blob/main/background/DISCORD_LOGO_WHITE_400.gif);
   --app-blur: 6px;
   --app-margin: 5px;
   --app-radius: 10px;
@@ -40,6 +40,27 @@ div[class*="typeWindows-"]::after {
   background: transparent;
   color: var(--color-author);
 }
+/*
+$$$$$$$\   $$$$$$\   $$$$$$\  $$\   $$\  $$$$$$\  $$$$$$$\   $$$$$$\  $$\   $$\ $$\   $$\ $$$$$$$\   $$$$$$\  
+$$  __$$\ $$  __$$\ $$  __$$\ $$ | $$  |$$  __$$\ $$  __$$\ $$  __$$\ $$ |  $$ |$$$\  $$ |$$  __$$\ $$  __$$\ 
+$$ |  $$ |$$ /  $$ |$$ /  \__|$$ |$$  / $$ /  \__|$$ |  $$ |$$ /  $$ |$$ |  $$ |$$$$\ $$ |$$ |  $$ |$$ /  \__|
+$$$$$$$\ |$$$$$$$$ |$$ |      $$$$$  /  $$ |$$$$\ $$$$$$$  |$$ |  $$ |$$ |  $$ |$$ $$\$$ |$$ |  $$ |\$$$$$$\  
+$$  __$$\ $$  __$$ |$$ |      $$  $$<   $$ |\_$$ |$$  __$$< $$ |  $$ |$$ |  $$ |$$ \$$$$ |$$ |  $$ | \____$$\ 
+$$ |  $$ |$$ |  $$ |$$ |  $$\ $$ |\$$\  $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |\$$$ |$$ |  $$ |$$\   $$ |
+$$$$$$$  |$$ |  $$ |\$$$$$$  |$$ | \$$\ \$$$$$$  |$$ |  $$ | $$$$$$  |\$$$$$$  |$$ | \$$ |$$$$$$$  |\$$$$$$  |
+\_______/ \__|  \__| \______/ \__|  \__| \______/ \__|  \__| \______/  \______/ \__|  \__|\_______/  \______/ 
+*/
+
+.appMount-3lHmkl, body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.2)) , var(--app-background) 50% 50%/cover !important;
+  background-color: transparent !important;
+  text-rendering: optimizeLegibility;
+}
+.appMount-2yBXZl, body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.8)) , var(--app-background) 50% 50%/cover !important;
+  background-color: transparent !important;
+  text-rendering: optimizeLegibility;
+}
 /* marca do discord */
 .wordmarkWindows-2dq6rw {
   color: var(--color-discord) !important;
@@ -50,8 +71,8 @@ div[class*="typeWindows-"]::after {
 }
 /* icon do discord */
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
-background-color: var(--icone-discord) !important;
-}
-.childWrapper-1j_1ub {
-  background-color: var(--icone-discord);
+ color: var(--loop-gif) !important;
+ background: transparent;
+
+
 }
