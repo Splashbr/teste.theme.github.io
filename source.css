@@ -1,6 +1,6 @@
 :root {
   --app-background: url(https://i.imgur.com/GIfkekn.jpg);
-   --loop-gif: url(https://github.com/Splashbr/Splash-theme/blob/main/background/DISCORD_LOGO_BLACK_400.gif);
+  --loop-gif: url(https://github.com/Splashbr/Splash-theme/blob/main/background/DISCORD_LOGO_BLACK_400.gif);
   --app-blur: 6px;
   --app-margin: 5px;
   --app-radius: 10px;
@@ -10,7 +10,7 @@
   --interactive-normal: #aaa;
   /* cor que vai ficar ao passar o mouse em cima, o padão #ddd */
   --interactive-hover: #ddd;
-   /* cor que vai ficar quando selecionar o item, o padão #fff */
+  /* cor que vai ficar quando selecionar o item, o padão #fff */
   --interactive-active: #fff;
   /*  */
   --interactive-muted: #777;
@@ -20,7 +20,7 @@
   --header-secondary: #dfdfdf;
 
   /* cores */
-  --color-author: #A240BF;
+  --color-author: #a240bf;
   --color-discord: #aaa;
   --color-mef: #aaa;
 }
@@ -51,28 +51,110 @@ $$$$$$$  |$$ |  $$ |\$$$$$$  |$$ | \$$\ \$$$$$$  |$$ |  $$ | $$$$$$  |\$$$$$$  |
 \_______/ \__|  \__| \______/ \__|  \__| \______/ \__|  \__| \______/  \______/ \__|  \__|\_______/  \______/ 
 */
 
-.appMount-3lHmkl, body {
-  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.2)) , var(--app-background) 50% 50%/cover !important;
+.appMount-3lHmkl,
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
+    var(--app-background) 50% 50% / cover !important;
   background-color: transparent !important;
   text-rendering: optimizeLegibility;
 }
-.appMount-2yBXZl, body {
-  background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.8)) , var(--app-background) 50% 50%/cover !important;
+.appMount-2yBXZl,
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    var(--app-background) 50% 50% / cover !important;
   background-color: transparent !important;
   text-rendering: optimizeLegibility;
+}
+/* botões minimizar/espandir/fexar */
+.winButton-3UMjdg {
+  height: 100%;
+  top: 0;
+  color: var(--color-mef) !important ;
+}
+/* icon do discord */
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
+.wrapper-3kah-n:hover .childWrapper-1j_1ub {
+  color: var(--loop-gif) !important;
+  background: transparent;
+}
+.childWrapper-1j_1ub {
+  color: var(--loop-gif) !important;
+  background: transparent;
+}
+.app-2CXKsg,
+.bg-1QIAus {
+  background-color: transparent;
+}
+
+.container-2cd8Mz {
+  background: transparent;
+}
+
+.container-ZMc96U.themed-Hp1KC_ {
+  background: transparent;
+}
+
+/*
+  *
+ *  TITLE BAR OU/ ONDE FICA O NOME DO DISCORD
+ *
+ */
+.titleBar-1it3bQ {
+  height: 24px;
+}
+.titleBar-1it3bQ.withFrame-2dL45i {
+  margin-top: 0;
+}
+.titleBar-1it3bQ.typeMacOS-3V4xXE {
+  top: var(--app-margin);
+  left: var(--app-margin);
+}
+.titleBar-1it3bQ.typeMacOS-3V4xXE .macButtons-eIdy0e {
+  width: 72px;
+  border-top-left-radius: var(--app-radius);
+}
+.titleBar-1it3bQ.typeMacOS-3V4xXE .macButtons-eIdy0e .macButton-2M5W_9 {
+  cursor: pointer;
 }
 /* marca do discord */
 .wordmarkWindows-2dq6rw {
   color: var(--color-discord) !important;
 }
-/* minimizar/espandir/fexar */
-.winButton-3UMjdg {
-  color: var(--color-mef) !important;
+.platform-osx .wrapper-1_HaEi {
+  margin-top: 0;
+  padding-top: 35px;
 }
-/* icon do discord */
-.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
- color: var(--loop-gif) !important;
- background: transparent;
+.platform-osx .tree-3agP2X {
+  margin-top: 32px;
+}
 
+/*
+ *
+ *  LISTA DE CANAIS
+ *
+ */
+ .platform-win .sedebar-1tnWFu {
+  border-radius: 0;
+ }
 
+ .sidebar-1tnWFu {
+  background-color: var(--sidebar-color);
+ }
+ /* dentro do servidor vai ficar transparente na parte de criar uma cartegoria/canal */
+ .sidebar-1tnWFu .container-1NXEtd {
+  background-color: transparent;
+}
+.sidebar-1tnWFu .content-1gYQeQ {
+  border-radius: var(--list-item-radius);
+}
+.header-3OsQeK {
+  background-color: transparent !important;
+  box-shadow: var(--popout-header-shadow);
+}
+.header-3OsQeK .communityInfoPill-2Mll66 {
+  background-color: var(--card-color);
+  border-radius: var(--card-radius);
+}
+.content-1Tgc42 {
+  border-radius: var(--list-item-radius);
 }
