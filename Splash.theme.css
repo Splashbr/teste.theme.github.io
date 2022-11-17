@@ -7,18 +7,17 @@
  * @source https://github.com/samuelxpn/teste.theme.github.io/blob/main/source.
  */
 
+@import url(https://splashbr.github.io/Splash.theme.github.io/source.css);
 
- @import url(https://splashbr.github.io/Splash.theme.github.io/source.css);
-
- :root {
+:root {
   --app-background: url(https://i.imgur.com/GIfkekn.jpg);
-   --app-blur: 6px;
+  --app-blur: 6px;
   --app-margin: px;
   --app-radius: 10px;
   --interactive-normal: #aaa;
   /* cor que vai ficar ao passar o mouse em cima */
   --interactive-hover: #ddd;
-   /* cor que vai ficar quando selecionar o item */
+  /* cor que vai ficar quando selecionar o item */
   --interactive-active: rgb(255, 0, 0);
   /*  */
   --interactive-muted: #777;
@@ -26,20 +25,4 @@
   --channels-default: #aaa;
   /* cor do seu perfil com call/seu nome e textos */
   --header-secondary: #dfdfdf;
- }
-
- div[class*="typeWindows-"]::after {
-  content: "🔮Splash🔮 v0.0.1";
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 30px;
-  top: 0;
-  left: 0;
-  position: absolute;
-  padding: 0 15px;
-  z-index: -1;
-  width: 100%;
-  height: 20px;
-  background: transparent;
-  color: var(--Main-Color);
 }
