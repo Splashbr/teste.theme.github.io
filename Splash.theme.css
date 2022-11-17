@@ -15,4 +15,15 @@
    --app-blur: 6px;
   --app-margin: px;
   --app-radius: 10px;
+  --interactive-normal: #aaa;
+  /* cor que vai ficar ao passar o mouse em cima */
+  --interactive-hover: #ddd;
+   /* cor que vai ficar quando selecionar o item */
+  --interactive-active: rgb(255, 0, 0);
+  /*  */
+  --interactive-muted: #777;
+  /*  */
+  --channels-default: #aaa;
+  /* cor do seu perfil com call/seu nome e textos */
+  --header-secondary: #dfdfdf;
  }
