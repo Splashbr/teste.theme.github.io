@@ -1,3 +1,5 @@
+/* não esquecer se for trocar de hsl para hue 1062, 3883, 3924 INPORTANTE */
+
 /* Olá, seja bem ao Splash.themes, nesse arquivo SOURCE.CSS fica tudo sobre o discord basicamente é a fonte de alimentação do tema. */
 
 /* vai ter outro arquivo com nome do tema, nele vai conter coisas basicas para alterar o TEMA. */
@@ -241,6 +243,18 @@ body {
 .scroller-2M3eAB {
   height: 100%;
   padding: 0px 10px 10px;
+}
+
+/* mensagens no geral */
+.messagesWrapper-RpOMA3 {
+  position: relative;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 0;
+  min-width: 0;
+  z-index: 0;
+  margin-bottom: -25px;
 }
 
 /* Card ao perta no abjetivo: nivel do inpulso */
