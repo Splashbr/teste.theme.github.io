@@ -89,17 +89,21 @@
   --tooltip-padding: 8px 12px;
   --tooltip-radius: var(--app-radius);
   --tooltip-shadow: var(--elevation-high);
+
   /* cor do (Discord, Amigos, Nitro, público, Mensagens diretas etc... */
   /* código padrao #aaa */
-  --interactive-normal: #aaa;
+  --interactive-normal: rgb(170, 170, 170);
+
   /* cor que vai ficar ao passar o mouse em cima, o padão #ddd */
-  --interactive-hover: #EFDE10;
+  --interactive-hover: rgb(221, 221, 221);
+
   /* cor que vai ficar quando selecionar o item, o padão #fff */
-  --interactive-active: #EF1010;
-  --interactive-muted: #777;
-  --channels-default: #aaa;
+  --interactive-active: rgb(255, 255, 255);
+  --interactive-muted: rgb(255, 0, 0);
+  --channels-default: rgb(170, 170, 170);
+
   /* cor do seu perfil com call/seu nome e textos, o padão #dfdfdf*/
-  --header-secondary: #dfdfdf;
+  --header-secondary: rgb(248, 231, 231);
   --background-primary: transparent;
   /* ligado com --interactive-normal  */
   --channels-default: var(--interactive-normal);
@@ -111,14 +115,14 @@
   --scrollbar-color-alt: 0, 0, 0;
   --scrollbar-opacity: 0.2;
   --scrollbar-opacity-hover: 0.3;
-  --scrollbar-width: 10px;
+  --scrollbar-width: 8px;
   --font-primary: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   --font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 
-  /* cores */
+  /* CORES */
   --color-author: #a240bf;
   --color-discord: #fff;
-  --color-mef: #aaa;
+  --color-mef: #fff;
   --color-impulso: rgb(44, 114, 194);
 }
 
@@ -130,8 +134,9 @@
   --background-modifier-accent: rgba(255, 255, 255, 0.175);
 }
 
+/* MARCA DO AUTHOR */
 div[class*="typeWindows-"]::after {
-  content: "🔮 Splash-themes | v 0.0.1";
+  content: "🔮 Splash-themes | v0.0.1";
   font-weight: bold;
   font-size: 14px;
   line-height: 22px;
@@ -146,10 +151,12 @@ div[class*="typeWindows-"]::after {
   color: var(--color-author);
 }
 
+/* APLICANDO TRANPARENTE NO BODY */
 body {
   background-color: transparent;
 }
 
+/* APLICANDO O BLUR E O BACKGROUND/IMAGEM */
 .appMount-2yBXZl {
   background: var(--app-background);
   background-repeat: no-repeat;
@@ -212,13 +219,7 @@ body {
   backdrop-filter: blur(var(--popout-blur));
 }
 
-/* Card ao perta no abjetivo: nivel do inpulso */
-.perkDescription-3e1T_w {
-  color: var(--color-impulso);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 20px;
-}
+/* Fim do Background */
 
 .wrapper-poygym {
   padding-top: 20px;
@@ -230,11 +231,12 @@ body {
   padding: 0px 10px 10px;
 }
 
-/* botões minimizar/espandir/fexar */
-.winButton-3UMjdg {
-  height: 100%;
-  top: 0;
-  color: var(--color-mef) !important;
+/* Card ao perta no abjetivo: nivel do inpulso */
+.perkDescription-3e1T_w {
+  color: var(--color-impulso);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
 }
 
 /* marca do discord */
@@ -248,6 +250,14 @@ body {
   left: 50%;
   padding: 4px 9px 3px;
 }
+
+/* botões minimizar/espandir/fexar */
+.winButton-3UMjdg {
+  height: 100%;
+  top: 0;
+  color: var(--color-mef) !important;
+}
+
 
 .container-2cd8Mz {
   background: transparent;

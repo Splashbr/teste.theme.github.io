@@ -11,11 +11,18 @@
 
 :root {
   --app-background: url(https://i.imgur.com/GIfkekn.jpg);
+  --app-blur: 5px; /* */
+  --app-margin: 10px; /* */
+  --app-radius: 10px; /* */
   /* cor do (Discord, Amigos, Nitro, público, Mensagens diretas etc... */
-    /* código padrao #aaa */
-    --interactive-normal: #aaa;
-    /* cor que vai ficar ao passar o mouse em cima, o padão #ddd */
-    --interactive-hover: #ddd;
-    /* cor que vai ficar quando selecionar o item, o padão #fff */
-    --interactive-active: #fff;
+  /* código padrao #aaa */
+  --interactive-normal: #aaa;
+
+  /* cor que vai ficar ao passar o mouse em cima */
+  /* código padrao #ddd */
+  --interactive-hover: #ddd;
+
+  /* cor que vai ficar quando selecionar o item, o padão */
+  /* código padrao #fff */
+  --interactive-active: #fff;
 }
