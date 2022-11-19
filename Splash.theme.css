@@ -11,18 +11,15 @@
 
 :root {
   --app-background: url(https://i.imgur.com/GIfkekn.jpg);
-  --app-blur: 5px; /* */
-  --app-margin: 10px; /* */
-  --app-radius: 10px; /* */
-  /* cor do (Discord, Amigos, Nitro, público, Mensagens diretas etc... */
+  --app-blur: 5px; /* Vai aplicar desfoque na imagem que ta no fundo*/
+  --app-margin: 10px; /* Vai aplicar uma distancia das bordas do discord*/
+  --app-radius: 10px;
+  --accent-hue: 290; /* Cor das pasta e no perfil */
+  --sidebar-color: rgba(0, 0, 0, 0.4); /* Sonbreado no sevidores e mensagens */--main-content-color: rgba(0, 0, 0, 0.2); /* Sonbreado no chat*/
   /* código padrao #aaa */
   --interactive-normal: #aaa;
-
-  /* cor que vai ficar ao passar o mouse em cima */
   /* código padrao #ddd */
   --interactive-hover: #ddd;
-
-  /* cor que vai ficar quando selecionar o item, o padão */
   /* código padrao #fff */
   --interactive-active: #fff;
 }

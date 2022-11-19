@@ -6,11 +6,17 @@
 :root {
   --app-background: url(https://i.imgur.com/GIfkekn.jpg);
   --app-blur: 5px;
+  /* Vai aplicar desfoque na imagem que ta no fundo*/
   --app-margin: 10px;
+  /* Vai aplicar uma distancia das bordas do discord*/
   --app-radius: 10px;
+  /* */
   --sidebar-color: rgba(0, 0, 0, 0.4);
+  /* sonbreado no sevidores e mensagens diretas*/
   --main-content-color: rgba(0, 0, 0, 0.2);
-  --accent-hue: 156;
+  /* sonbreado no chat*/
+  --accent-hue: 290;
+  /* Cor das pasta e no perfil */
   --accent-saturation: 77.5%;
   --accent-lightness: 47.1%;
   --accent-hsl: var(--accent-hue),
@@ -99,7 +105,7 @@
 
   /* cor que vai ficar quando selecionar o item, o padão #fff */
   --interactive-active: rgb(255, 255, 255);
-  --interactive-muted: rgb(255, 0, 0);
+  --interactive-muted: rgb(119, 119, 119);
   --channels-default: rgb(170, 170, 170);
 
   /* cor do seu perfil com call/seu nome e textos, o padão #dfdfdf*/
@@ -120,9 +126,9 @@
   --font-display: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 
   /* CORES */
-  --color-author: #a240bf;
-  --color-discord: #fff;
-  --color-mef: #fff;
+  --color-author: rgb(162, 64, 191);
+  --color-discord: rgb(255, 255, 255);
+  --color-mef: rgb(255, 255, 255);
   --color-impulso: rgb(44, 114, 194);
 }
 
@@ -151,7 +157,13 @@ div[class*="typeWindows-"]::after {
   color: var(--color-author);
 }
 
-/* APLICANDO TRANPARENTE NO BODY */
+/*
+ *
+ *  APP ELEMENTS
+ *
+ */
+
+/* APLICANDO TRANPARENCIA NO BODY */
 body {
   background-color: transparent;
 }
@@ -856,7 +868,7 @@ body {
 }
 
 .toolbar-37BrJ5 .button-f2h6uQ:after {
-  --button-action-color: #fff;
+  --button-action-color: rgb(255, 255, 255);
 }
 
 /*
