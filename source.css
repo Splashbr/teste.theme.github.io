@@ -6,8 +6,9 @@
 
 /* Você não podera alterar nada aqui já que a fonte de alimentação do TEMA. */
 :root {
-  --app-background: url('https://i.imgur.com/4dxbkM8.gif');
+  --app-background: url('https://i.imgur.com/GNEKYsM.png');
   --home-icon: url('https://i.imgur.com/5KhcTvq.gif');
+  --app-botton1: url('https://i.imgur.com/n0zpSI4.png');
   --app-blur: 5px;
   /* Vai aplicar desfoque na imagem que ta no fundo*/
   --app-margin: 10px;
@@ -174,10 +175,12 @@ div[class*="typeWindows-"]::after {
 /*Fundo personalizado para ícone inicial e para guildas sem fotos*/
 .childWrapper-1j_1ub {
   /* img */
-  background: var(--home-icon) 50% / cover !important;
+  background: var(--home-icon) center 50% / cover !important;
+  padding-bottom: 30px;
+
 
   /* gif */
-  /* background: var(--home-icon) top center/110% no-repeat; */
+  /* background: var(--home-icon) center / 110% no-repeat !important; */
 
   /* plano de fundo/cor */
   /* background-color: hsla(var(--accent-hsl)) !important; */
@@ -298,11 +301,23 @@ body {
 /* botões minimizar/espandir/fexar */
 .winButton-3UMjdg {
   height: 100%;
-  top: 0;
+  top: 0px;
   color: var(--color-mef) !important;
 }
 
+/* botton */
+/* polygon {
+  display: none;
+}
 
+.winButtonClose-3Q8ZH5 {
+  background: var(--app-botton1) 50% !important;
+  width: 15px;
+  height: 15px;
+  top: 4px;
+  left: -2px;
+  border-radius: 10px;
+} */
 .container-2cd8Mz {
   background: transparent;
 }
