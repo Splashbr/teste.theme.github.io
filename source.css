@@ -6,8 +6,8 @@
 
 /* Você não podera alterar nada aqui já que a fonte de alimentação do TEMA. */
 :root {
-  --app-background: url('https://i.imgur.com/GIfkekn.jpg');
-  --home-icon: url('https://i.imgur.com/zA3QzpG.gif');
+  --app-background: url('https://i.imgur.com/4dxbkM8.gif');
+  --home-icon: url('https://i.imgur.com/5KhcTvq.gif');
   --app-blur: 5px;
   /* Vai aplicar desfoque na imagem que ta no fundo*/
   --app-margin: 10px;
@@ -491,6 +491,15 @@ body {
  *
  */
 /* INPORTANDTE */
+.scroller-kQBbkU {
+  position: absolute;
+  top: 0;
+  bottom: 15;
+  left: 0;
+  right: 0;
+}
+
+
 .chat-2ZfjoI,
 .noChannel-1GDIAZ {
   background-color: var(--main-content-color) !important;
@@ -973,6 +982,7 @@ body {
 .channelTextArea-1VQBuV .scrollableContainer-15eg7h,
 .wrapper-2SplAX .scrollableContainer-15eg7h {
   background-color: transparent;
+  margin-bottom: 25px;
 }
 
 .channelTextArea-1VQBuV .placeholder-1rCBhr,
