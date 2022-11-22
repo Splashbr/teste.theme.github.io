@@ -16,7 +16,8 @@
   --app-margin: 10px; /* Vai aplicar uma distancia das bordas do discord*/
   --app-radius: 10px;
   --accent-hue: 290; /* Cor das pasta e no perfil */
-  --sidebar-color: rgba(0, 0, 0, 0.4); /* Sonbreado no sevidores e mensagens */--main-content-color: rgba(0, 0, 0, 0.2); /* Sonbreado no chat*/
+  --sidebar-color: rgba(0, 0, 0, 0.4); /* Sonbreado no sevidores e mensagens */
+  --main-content-color: rgba(0, 0, 0, 0.2); /* Sonbreado no chat*/
   /* código padrao #aaa */
   --interactive-normal: #aaa;
   /* código padrao #ddd */
