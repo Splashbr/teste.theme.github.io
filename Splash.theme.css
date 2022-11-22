@@ -10,7 +10,7 @@
 @import url(https://splashbr.github.io/Splash-theme/source.css);
 
 :root {
-  --app-background: url('https: //i.imgur.com/4dxbkM8.gif'); /* imagem de fundo do discord */
+  --app-background: url('https://i.imgur.com/4dxbkM8.gif'); /* imagem de fundo do discord */
   --home-icon: url('https://i.imgur.com/5KhcTvq.gif'); /* icone do discord */
   --app-blur: 5px; /* Vai aplicar desfoque na imagem que ta no fundo*/
   --app-margin: 10px; /* Vai aplicar uma distancia das bordas do discord*/
