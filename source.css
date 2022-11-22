@@ -178,10 +178,6 @@ div[class*="typeWindows-"]::after {
   background: var(--home-icon) center 50% / cover !important;
   padding-bottom: 30px;
 
-
-  /* gif */
-  /* background: var(--home-icon) center / 110% no-repeat !important; */
-
   /* plano de fundo/cor */
   /* background-color: hsla(var(--accent-hsl)) !important; */
 }
