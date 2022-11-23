@@ -271,7 +271,7 @@ body {
   min-height: 0;
   min-width: 0;
   z-index: 0;
-  margin-bottom: -25px;
+  margin-bottom: -11px;
 }
 
 /* Card ao perta no abjetivo: nivel do inpulso */
@@ -502,15 +502,6 @@ body {
  *
  */
 /* INPORTANDTE */
-.scroller-kQBbkU {
-  position: absolute;
-  top: 0;
-  bottom: 15;
-  left: 0;
-  right: 0;
-}
-
-
 .chat-2ZfjoI,
 .noChannel-1GDIAZ {
   background-color: var(--main-content-color) !important;
