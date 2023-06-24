@@ -1,0 +1,262 @@
+/* Tudo feito aqui foi feito como aprendizado 
+*  
+* Olá, seja bem ao api do tema.
+*
+*/
+
+:root {
+  --main-font: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  --code-font: Consolas, Liberation Mono, Menlo, Courier, monospace;
+  --main-color: #2780e6;
+
+  /* PRINCIPAIS CONFIG DO DISCORD */
+  --background-image: url('https://i.imgur.com/GNEKYsM.png');
+  --app-blur: 5px;
+  --app-margin: 10px;
+  --app-radius: 10px;
+
+  --background-shading: 100%;
+  --background-overlay: rgba(0, 0, 0, 0.6);
+  --background-grayscale: 0%;
+  --background-sepia: 0%;
+  --background-invert: 0%;
+  --background-brightness: 100%;
+  --background-contrast: 100%;
+  --background-saturation: 100%;
+  --background-blur: 3px;
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+
+  --sidebar-color: rgba(0, 0, 0, 0.4);
+  --main-content-color: rgba(0, 0, 0, 0.2);
+
+  --accent-hue: 290;
+  --accent-saturation: 77.5%;
+  --accent-lightness: 47.1%;
+  --accent-hsl: var(--accent-hue),
+    calc(var(--accent-saturation) * var(--saturation-factor)),
+    var(--accent-lightness);
+  --accent-opacity: 1;
+  --accent-text-color: #000;
+  --alert-hue: 359;
+  --alert-saturation: 66.7%;
+  --alert-lightness: 54.1%;
+  --alert-hsl: var(--alert-hue),
+    calc(var(--alert-saturation) * var(--saturation-factor)),
+    var(--alert-lightness);
+  --alert-opacity: 1;
+  --alert-action-color: #fff;
+  --alert-text-color: #fff;
+  --message-color: rgba(0, 0, 0, 0.4);
+  --message-color-hover: rgba(0, 0, 0, 0.55);
+  --message-radius: var(--app-radius);
+  --message-padding-top: 8px;
+  --message-padding-side: 8px;
+  --mention-hue: var(--accent-hue);
+  --mention-saturation: var(--accent-saturation);
+  --mention-lightness: var(--accent-lightness);
+  --mention-hsl: var(--mention-hue),
+    calc(var(--mention-saturation) * var(--saturation-factor)),
+    var(--mention-lightness);
+  --mention-opacity: 1;
+  --reply-hue: 226;
+  --reply-saturation: 77.4%;
+  --reply-lightness: 61.8%;
+  --reply-hsl: var(--reply-hue),
+    calc(var(--reply-saturation) * var(--saturation-factor)),
+    var(--reply-lightness);
+  --reply-opacity: 1;
+  --notification-color: #fff;
+  --list-item-radius: var(--app-radius);
+  --textarea-color: 255, 255, 255;
+  --textarea-alpha: 0.1;
+  --textarea-alpha-focus: 0.15;
+  --textarea-text-color: #fff;
+  --textarea-placeholder-color: #aaa;
+  --textarea-radius: 22px;
+  --textarea-block-color: rgba(0, 0, 0, 0.4);
+  --textarea-block-text-color: #ccc;
+  --input-height: 36px;
+  --input-radius: calc(var(--input-height) / 2);
+  --card-color: rgba(0, 0, 0, 0.4);
+  --card-color-hover: rgba(0, 0, 0, 0.5);
+  --card-color-select: rgba(0, 0, 0, 0.625);
+  --card-radius: var(--app-radius);
+  --card-header-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.25);
+  --button-height: 32px;
+  --button-padding: 0 16px;
+  --button-color: hsla(var(--accent-hsl), var(--accent-opacity));
+  --button-action-color: #000;
+  --button-text-color: var(--accent-text-color);
+  --button-radius: 16px;
+  --switch-slider-color: rgba(114, 118, 125, 0.85);
+  --switch-knob-color: #222;
+  --popout-color: rgba(0, 0, 0, 0.55);
+  --popout-blur: 8px;
+  --popout-header-opacity: 0.3;
+  --popout-header-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.25);
+  --popout-radius: var(--app-radius);
+  --popout-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+    0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+  --nowplaying-color: 88, 101, 242;
+  --streaming-color: 89, 54, 149;
+  --spotify-color: 29, 185, 84;
+  --server-folder-color: rgba(255, 255, 255, 0.1);
+  --supporter-color: hsla(var(--accent-hsl), var(--accent-opacity));
+  --tooltip-color: hsla(var(--accent-hsl), var(--accent-opacity));
+  --tooltip-text-color: var(--accent-text-color);
+  --tooltip-font-size: 14px;
+  --tooltip-padding: 8px 12px;
+  --tooltip-radius: var(--app-radius);
+  --tooltip-shadow: var(--elevation-high);
+
+  --interactive-normal: rgb(170, 170, 170);
+  --interactive-hover: rgb(221, 221, 221);
+  --interactive-active: rgb(255, 255, 255);
+  --interactive-muted: rgb(119, 119, 119);
+  --channels-default: rgb(170, 170, 170);
+  --header-secondary: rgb(248, 231, 231);
+  --background-primary: transparent;
+  --channels-default: var(--interactive-normal);
+  --text-muted: var(--interactive-normal);
+
+  --transition-time: 250ms;
+  --transition-type: cubic-bezier(0.4, 0, 0.2, 1);
+  --scrollbar-color: 255, 255, 255;
+  --scrollbar-color-alt: 0, 0, 0;
+  --scrollbar-opacity: 0.2;
+  --scrollbar-opacity-hover: 0.3;
+  --scrollbar-width: 8px;
+  --font-primary: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  --font-display: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+.typeWindows-2-g3UY {
+  height: 18px;
+  width: 100vw;
+  margin: 0;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background: rgba(0, 0, 0, calc(var(--background-shading) * 0.6));
+  box-shadow: 0 0 20px rgba(0, 0, 0, calc(var(--background-shading) * 0.6));
+}
+
+.typeWindows-2-g3UY > .wordmark-2u86JB {
+  position: static;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  pointer-events: none;
+  user-select: none;
+  order: 1;
+}
+
+.typeWindows-2-g3UY > .wordmark-2u86JB:before {
+  content: 'TheSplashyThemes';
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  text-shadow: 0 0 3px #000;
+}
+.typeWindows-2-g3UY > .wordmark-2u86JB:after {
+  content: 'v0.0.1';
+  color: rgba(255, 255, 255, 0.3);
+  font-family: var(--code-font);
+  font-size: 10px;
+}
+
+.typeWindows-2-g3UY > .wordmark-2u86JB:before,
+.typeWindows-2-g3UY > .wordmark-2u86JB:after {
+  margin-left: 3px;
+  font-weight: 600;
+  white-space: nowrap;
+  order: 1;
+}
+
+.typeWindows-2-g3UY > .wordmark-2u86JB > svg {
+  filter: drop-shadow(0 0 5px var(--main-color));
+  /* margin-top: 6px; */
+  margin-bottom: 1px;
+  width: 80px;
+  height: 50px;
+  color: #2780e6;
+}
+
+.typeWindows-2-g3UY > .winButton-3UMjdg {
+  top: -2px;
+  opacity: 0.7;
+  transition: all 0.15s ease-in-out;
+}
+
+.winButton-3UMjdg {
+  color: white;
+}
+
+.app-2CXKsg {
+  background: rgba(0, 0, 0, 0);
+}
+
+.bg-1QIAus {
+  background: var(--background-image) var(--background-position) /
+    var(--background-size) var(--background-repeat) var(--background-attachment);
+  filter: grayscale(var(--background-grayscale)) sepia(var(--background-sepia))
+    invert(var(--background-invert)) brightness(var(--background-brightness))
+    contrast(var(--background-contrast)) saturate(var(--background-saturation))
+    blur(var(--background-blur));
+  z-index: -9999;
+}
+
+.appMount-2yBXZl .layers-OrUESM,
+.appMount-2yBXZl .layer-86YKbF {
+  background: rgba(0, 0, 0, 0);
+}
+
+.layer-86YKbF .container-1eFtFS,
+.layer-86YKbF .standardSidebarView-E9Pc3j {
+  background: rgba(0, 0, 0, 0);
+}
+
+.layer-86YKbF .wrapper-1_HaEi {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.wrapper-1_HaEi {
+  box-shadow: inset 0 0 20px
+    rgba(0, 0, 0, calc(var(--background-shading) * 0.3));
+}
+
+.tree-3agP2X {
+  outline: none;
+}
+
+.unread-2wipsx,
+.mention-3XBnnZ {
+  position: relative;
+  background: rgba(0, 0, 0, 0);
+}
+
+.unread-2wipsx:after,
+.mention-3XBnnZ:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: var(--main-color);
+  border-radius: 3px;
+  opacity: 0.9;
+  z-index: -1;
+  transition: all 0.15s ease-in-out;
+}
+
+.theme-dark .scroller-3X7KbA {
+  background: rgba(0, 0, 0, 0);
+}
+
+.item-2LIpTv {
+  background-color: var(--main-color);
+}
