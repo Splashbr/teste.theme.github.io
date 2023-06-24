@@ -1,13 +1,13 @@
 /**
  * @name TheSplashy-themes
  * @author TheSplashy
- * @description Um tema clem para discord, é posivel personalizar o tema
+ * @description Tema em desolvimento para o discor!
  * @version 0.0.1
- * @website https://github.com/Splashbr
- * @source https://github.com/Splashbr/Splash-theme/blob/main/source.css
+ * @website https://github.com/TheSplashyy
+ * @source https://thesplashyy.github.io/theme-dev/source.css
  */
 
-@import url(https://splashbr.github.io/Splash-theme/source.css);
+@import url(https://thesplashyy.github.io/theme-dev/source.css);
 
 :root {
   --app-background: url('https://i.imgur.com/GNEKYsM.png'); /* imagem de fundo do discord */
