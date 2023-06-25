@@ -40,6 +40,7 @@
     var(--accent-lightness);
   --accent-opacity: 1;
   --accent-text-color: #000;
+
   --alert-hue: 359;
   --alert-saturation: 66.7%;
   --alert-lightness: 54.1%;
@@ -49,6 +50,7 @@
   --alert-opacity: 1;
   --alert-action-color: #fff;
   --alert-text-color: #fff;
+
   --message-color: rgba(0, 0, 0, 0.4);
   --message-color-hover: rgba(0, 0, 0, 0.55);
   --message-radius: var(--app-radius);
@@ -61,6 +63,7 @@
     calc(var(--mention-saturation) * var(--saturation-factor)),
     var(--mention-lightness);
   --mention-opacity: 1;
+
   --reply-hue: 226;
   --reply-saturation: 77.4%;
   --reply-lightness: 61.8%;
@@ -68,8 +71,10 @@
     calc(var(--reply-saturation) * var(--saturation-factor)),
     var(--reply-lightness);
   --reply-opacity: 1;
+
   --notification-color: #fff;
   --list-item-radius: var(--app-radius);
+
   --textarea-color: 255, 255, 255;
   --textarea-alpha: 0.1;
   --textarea-alpha-focus: 0.15;
@@ -78,33 +83,40 @@
   --textarea-radius: 22px;
   --textarea-block-color: rgba(0, 0, 0, 0.4);
   --textarea-block-text-color: #ccc;
+
   --input-height: 36px;
   --input-radius: calc(var(--input-height) / 2);
+
   --card-color: rgba(0, 0, 0, 0.4);
   --card-color-hover: rgba(0, 0, 0, 0.5);
   --card-color-select: rgba(0, 0, 0, 0.625);
   --card-radius: var(--app-radius);
   --card-header-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.25);
+
   --button-height: 32px;
   --button-padding: 0 16px;
   --button-color: hsla(var(--accent-hsl), var(--accent-opacity));
   --button-action-color: #000;
   --button-text-color: var(--accent-text-color);
   --button-radius: 16px;
+
   --switch-slider-color: rgba(114, 118, 125, 0.85);
   --switch-knob-color: #222;
   --popout-color: rgba(0, 0, 0, 0.55);
+
   --popout-blur: 8px;
   --popout-header-opacity: 0.3;
   --popout-header-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.25);
   --popout-radius: var(--app-radius);
   --popout-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
     0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+
   --nowplaying-color: 88, 101, 242;
   --streaming-color: 89, 54, 149;
   --spotify-color: 29, 185, 84;
   --server-folder-color: rgba(255, 255, 255, 0.1);
   --supporter-color: hsla(var(--accent-hsl), var(--accent-opacity));
+
   --tooltip-color: hsla(var(--accent-hsl), var(--accent-opacity));
   --tooltip-text-color: var(--accent-text-color);
   --tooltip-font-size: 14px;
@@ -259,4 +271,67 @@
 
 .item-2LIpTv {
   background-color: var(--main-color);
+}
+
+.appMount-2yBXZl {
+  background: var(--background-image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.appMount-2yBXZl * {
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.appMount-2yBXZl svg {
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.5));
+}
+
+::selection {
+  background: hsla(var(--accent-hsl), 0.65);
+  color: var(--accent-text-color);
+}
+
+.layers-OrUESM {
+  margin: calc(var(--app-margin) / 2) var(--app-margin) var(--app-margin)
+    var(--app-margin);
+  border-radius: var(--app-radius);
+  overflow: hidden;
+  z-index: 1;
+  backdrop-filter: blur(var(--app-blur));
+}
+
+.typeMacOS-3V4xXE + .app-3xd6d0 .layers-OrUESM {
+  margin: var(--app-margin);
+}
+
+.app-2CXKsg,
+.bg-1QIAus {
+  background-color: transparent;
+}
+
+.anchor-1MIwyf {
+  color: hsl(var(--accent-hsl));
+}
+
+.colorLink-12GX9V,
+.colorBrand-21Le_q,
+.colorBrand-3Xb6JG {
+  color: hsl(var(--accent-hsl));
+}
+
+.container-2RRFHK {
+  background: var(--app-background);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container-2RRFHK .content-3AIQZv {
+  padding: 16px;
+  background-color: var(--popout-color);
+  border-radius: var(--popout-radius);
+  box-shadow: var(--popout-shadow);
+  backdrop-filter: blur(var(--popout-blur));
 }
