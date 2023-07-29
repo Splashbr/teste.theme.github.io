@@ -10,22 +10,20 @@
 @import url(https://thesplashyy.github.io/theme-dev/sources/source.css);
 
 :root {
-  --app-background: url('https://i.imgur.com/GNEKYsM.png'); /* imagem de fundo do discord */
-  --home-icon: url('https://i.imgur.com/5KhcTvq.gif'); /* icone do discord */
-  --app-blur: 5px; /* Vai aplicar desfoque na imagem que ta no fundo*/
-  --app-margin: 10px; /* Vai aplicar uma distancia das bordas do discord*/
+  --app-background: url('https://i.imgur.com/GNEKYsM.png');
+  --home-icon: url('https://i.imgur.com/5KhcTvq.gif');
+  --app-blur: 5px;
+  --app-margin: 10px;
   --app-radius: 10px;
-  /*	-	*/
 
-  --accent-hue: 290; /* Cor das pasta e no perfil */
+  --accent-hue: 290;
   --accent-saturation: 77.5%;
   --accent-lightness: 47.1%;
   --accent-opacity: 1;
   --accent-text-color: #000;
-  /*	-	*/
 
-  --sidebar-color: rgba(0, 0, 0, 0.4); /* Sonbreado no sevidores e mensagens */
-  --main-content-color: rgba(0, 0, 0, 0.2); /* Sonbreado no chat*/
+  --sidebar-color: rgba(0, 0, 0, 0.4);
+  --main-content-color: rgba(0, 0, 0, 0.2);
 
   --message-color: rgba(0, 0, 0, 0.4);
   --message-radius: 8px;
