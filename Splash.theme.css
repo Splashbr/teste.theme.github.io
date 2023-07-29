@@ -12,6 +12,7 @@
 :root {
   --app-background: url('https://i.imgur.com/GNEKYsM.png');
   --home-icon: url('https://i.imgur.com/5KhcTvq.gif');
+
   --app-blur: 5px;
   --app-margin: 10px;
   --app-radius: 10px;
